@@ -38,19 +38,21 @@ Ensure you have the following installed:
     Virtual environment (venv) or similar (optional but recommended)
     Required Python libraries (listed below)
 Installation Steps
-1. Clone the Repository
+1. Clone the Repository:
+   `````
   git clone https://github.com/Shamsvi/CMSE-830.git
   cd CMSE-830/MidtermPorject
-2. Set Up a Virtual Environment (Optional but recommended)
+  `````
+3. Set Up a Virtual Environment (Optional but recommended)
 To avoid dependency conflicts, it’s recommended to use a virtual environment:
   python3 -m venv .venv
   source .venv/bin/activate   # For Windows: .venv\Scripts\activate
-3. Install Required Libraries
+4. Install Required Libraries
   pip install -r requirements.txt
-4. Running the Streamlit App Locally
+5. Running the Streamlit App Locally
 Once all dependencies are installed, you can run the Streamlit app with the following command:
   streamlit run app.py
-5. Access the App
+6. Access the App
 After running the Streamlit command, the app will be accessible locally in your browser. Navigate to:
   http://localhost:8501
 

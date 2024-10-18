@@ -24,8 +24,9 @@ The Men's Cricket World Cup is one of the most prestigious tournaments in the cr
 **Live Demo**
 
 You can access the deployed Streamlit app directly without needing to install anything locally:
-
+````
 https://mens-cricket-t20-worldcup2007-2024.streamlit.app
+`````
 
 **Local Setup Instructions**
 
@@ -39,20 +40,28 @@ Ensure you have the following installed:
     Required Python libraries (listed below)
 Installation Steps
 1. Clone the Repository:
-   ````` git clone https://github.com/Shamsvi/CMSE-830.git
-  cd CMSE-830/MidtermPorject
-  `````
-3. Set Up a Virtual Environment (Optional but recommended)
-To avoid dependency conflicts, it’s recommended to use a virtual environment:
-  python3 -m venv .venv
-  source .venv/bin/activate   # For Windows: .venv\Scripts\activate
-4. Install Required Libraries
-  pip install -r requirements.txt
-5. Running the Streamlit App Locally
-Once all dependencies are installed, you can run the Streamlit app with the following command:
-  streamlit run app.py
-6. Access the App
-After running the Streamlit command, the app will be accessible locally in your browser. Navigate to:
-  http://localhost:8501
+   `````
+   git clone https://github.com/Shamsvi/CMSE-830.git
+   cd CMSE-830/MidtermPorject
 
+2. Set Up a Virtual Environment (Optional but recommended)
+
+   To avoid dependency conflicts, it’s recommended to use a virtual environment:
+   ````
+   python3 -m venv .venv
+   source .venv/bin/activate   # For Windows: .venv\Scripts\activate
+4. Install Required Libraries
+   ````
+    pip install -r requirements.txt
+5. Running the Streamlit App Locally
+
+    Once all dependencies are installed, you can run the Streamlit app with the following command:
+   `````
+   streamlit run app.py
+7. Access the App
+
+    After running the Streamlit command, the app will be accessible locally in your browser. Navigate to:
+    `````
+    http://localhost:8501
+    `````
 

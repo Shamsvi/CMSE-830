@@ -4,4 +4,4 @@ pandas
 numpy
 seaborn
 plotly.express
-sklearn.preprocessing
+scikit-learn

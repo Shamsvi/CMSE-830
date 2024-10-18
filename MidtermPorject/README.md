@@ -3,7 +3,6 @@
 The Men's Cricket World Cup is one of the most prestigious tournaments in the cricketing calendar, showcasing the talents of the world's best teams and players. This project aims to analyze and visualize key data from the tournament, focusing on match outcomes, team performances, and individual player statistics. By leveraging advanced data analysis techniques, we will explore trends in match margins, batting and bowling averages, and historical rivalries. Through this comprehensive analysis, we seek to provide valuable insights into the dynamics of the tournament, enhancing our understanding of competitiveness and performance in international cricket.
 
 **Key Features:**
-
     Dataset Overview: Summary and exploration of the dataset used in the analysis.
     Distribution of Key Numeric Features: Visual representation of key numeric statistics such as match margins, player performance, and win percentages.
     Distribution of Ranking Differences: Analyze ranking differences between teams and visualize their distribution.

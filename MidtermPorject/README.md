@@ -39,8 +39,7 @@ Ensure you have the following installed:
     Required Python libraries (listed below)
 Installation Steps
 1. Clone the Repository:
-   `````
-  git clone https://github.com/Shamsvi/CMSE-830.git
+   ````` git clone https://github.com/Shamsvi/CMSE-830.git
   cd CMSE-830/MidtermPorject
   `````
 3. Set Up a Virtual Environment (Optional but recommended)

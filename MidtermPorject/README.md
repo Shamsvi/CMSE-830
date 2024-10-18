@@ -1,8 +1,8 @@
-Mens T-20 Worldcup Analysis: 2007-2024
+**Mens T-20 Worldcup Analysis: 2007-2024**
 
 The Men's Cricket World Cup is one of the most prestigious tournaments in the cricketing calendar, showcasing the talents of the world's best teams and players. This project aims to analyze and visualize key data from the tournament, focusing on match outcomes, team performances, and individual player statistics. By leveraging advanced data analysis techniques, we will explore trends in match margins, batting and bowling averages, and historical rivalries. Through this comprehensive analysis, we seek to provide valuable insights into the dynamics of the tournament, enhancing our understanding of competitiveness and performance in international cricket.
 
-Key Features:
+**Key Features:**
     Dataset Overview: Summary and exploration of the dataset used in the analysis.
     Distribution of Key Numeric Features: Visual representation of key numeric statistics such as match margins, player performance, and win percentages.
     Distribution of Ranking Differences: Analyze ranking differences between teams and visualize their distribution.
@@ -14,25 +14,24 @@ Key Features:
     Search For Your Favourite Teams and Players: Search functionality to filter the dataset for specific teams and players.
     The project is deployed as a Streamlit app that allows users to interactively explore the data and derive insights.
 
-Datasets Used:
+**Datasets Used:**
   all_matches_data_df: Contains data on match results, teams, grounds, dates, and winning margins.
   wc_final_data_df: Detailed dataset for World Cup matches including win percentages and match-specific statistics, like batting and bowling averages, etc.
   players_df: Player information for matches, loaded separately from a CSV file.
   captains_df: dataset for the captainf of all of the teams in the all_matches_data_df, for the years 2007-2024
     
-Live Demo
+**Live Demo**
 You can access the deployed Streamlit app directly without needing to install anything locally:
 https://mens-cricket-t20-worldcup2007-2024.streamlit.app
 
-Local Setup Instructions
+**Local Setup Instructions**
 If you want to run the app locally for development or testing purposes, follow the steps below.
 
-Prerequisites
+**Prerequisites**
 Ensure you have the following installed:
-
-Python 3.8+
-Virtual environment (venv) or similar (optional but recommended)
-Required Python libraries (listed below)
+    Python 3.8+
+    Virtual environment (venv) or similar (optional but recommended)
+    Required Python libraries (listed below)
 Installation Steps
 1. Clone the Repository
   git clone https://github.com/Shamsvi/CMSE-830.git

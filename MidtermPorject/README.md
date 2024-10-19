@@ -18,7 +18,7 @@ The Men's Cricket World Cup is one of the most prestigious tournaments in the cr
 1. all_matches_data_df: Contains data on match results, teams, grounds, dates, and winning margins.
 2. wc_final_data_df: Detailed dataset for World Cup matches including win percentages and match-specific statistics, like batting and bowling averages, etc.
 3. players_df: Player information for matches, loaded separately from a CSV file.
-4. captains_df: Dataset for the captainf of all of the teams in the all_matches_data_df, for the years 2007-2024
+4. captains_df: Dataset for the captainf of all of the teams in the all_matches_data_df and wc_final_data_df, for the years 2007-2024
     
 **Live Demo**
 

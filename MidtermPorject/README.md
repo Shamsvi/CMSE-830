@@ -34,9 +34,8 @@ If you want to run the app locally for development or testing purposes, follow t
 **Prerequisites**
 
 Ensure you have the following installed:
-    Python 3.8+
-    Virtual environment (venv) or similar (optional but recommended)
-    Required Python libraries (listed below)
+      Python 3.8 and the Required Python libraries (listed below)
+    
 Installation Steps
 1. Clone the Repository:
    `````

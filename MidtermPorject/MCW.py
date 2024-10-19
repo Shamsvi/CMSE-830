@@ -45,9 +45,10 @@ def extract_t20_int_match(value):
     return int(match.group(1)) if match else None
 
 # Apply transformations to the wc_final_data_df
+# Extracting Numerics from T-20 Int Match Column
 wc_final_data_df['T-20 Int Match'] = wc_final_data_df['T-20 Int Match'].apply(extract_t20_int_match)
 
-# Convert 'Match Date' to datetime and extract year, month, day
+# Converting 'Match Date' to datetime and extract year, month, day
 wc_final_data_df['Match Date'] = pd.to_datetime(wc_final_data_df['Match Date'], format='%Y/%m/%d')
 wc_final_data_df['Match Year'] = wc_final_data_df['Match Date'].dt.year
 wc_final_data_df['Match Month'] = wc_final_data_df['Match Date'].dt.month
@@ -100,7 +101,7 @@ def extract_numeric_value(value):
 def extract_t20_int_match(value):
     match = re.search(r'# (\d+)', str(value))  # Extract the number after the hash symbol
     return int(match.group(1)) if match else None
-# Margins Column into Margb (runs) and Margin (Wickets)
+# Splitting Margins Column into Margb (runs) and Margin (Wickets)
 def extract_runs_correct(margin):
     if isinstance(margin, str) and 'runs' in margin:
         return float(margin.split()[0])  # Extract the number for runs
@@ -2143,7 +2144,7 @@ elif section == "Search For Your Favourite Teams and Players":
 
     # Process the filtered data
     if not filtered_data.empty:
-        # Process the data for display and plotting
+        
         filtered_data['Team'] = np.where(filtered_data['Team1'].str.contains(team_name, case=False, na=False), filtered_data['Team1'], filtered_data['Team2'])
         filtered_data['Against'] = np.where(filtered_data['Team'] == filtered_data['Team1'], filtered_data['Team2'], filtered_data['Team1'])
 
